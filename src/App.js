@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios'
-import './App-new.css';
+import './App.css';
 
 export const dataReducer = (state, action) => {
   if (action.type === 'SET_ERROR') {
